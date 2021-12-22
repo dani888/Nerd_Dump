@@ -11,3 +11,10 @@
   overflow: auto;
   font-family: "Varta", sans-serif;
 }
+
+.sidenav {
+  background-color: #dcdcdc;
+  font-size: 20px;
+  margin-top: 56px;
+  font-size: bold;
+}
