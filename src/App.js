@@ -4,9 +4,13 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 
 import Home from './pages/Home/Home'
+import About from './pages/About/About'
+import Weather from './pages/Weather/Weather'
+import Game from './pages/Games/Games'
 
 import './App.css';
 import './pages/Home/home.css'
+import './pages/About/about.css'
 
 
 function App() {
@@ -17,15 +21,15 @@ function App() {
           <Route exact path="/">
             <Home/>
           </Route>
-          {/* <Route exact path="/about">
+          <Route exact path="/about">
             <About/>
           </Route>
           <Route exact path="/weather">
-            <Projects/>
+            <Weather/>
           </Route>
           <Route exact path="/games">
-            <Projects/>
-          </Route> */}
+            <Game/>
+          </Route>
         </Switch>
         <Footer />
     </div>
