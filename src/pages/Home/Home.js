@@ -44,6 +44,17 @@ function Home() {
           </Button>
         </div>
         <br />
+        <div class="w3-container w3-center w3-animate-left">
+          <Button
+            className="homebut"
+            href="/games"
+            variant="contained"
+            size="large"
+          >
+            Memes
+          </Button>
+        </div>
+        <br />
         <div class="w3-container w3-center w3-animate-left1">
           <Button className="homebut" href="#" variant="outlined" size="large">
             Shows
