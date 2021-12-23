@@ -1,0 +1,10 @@
+#map {
+  width: 800px;
+  height: 500px;
+  margin-bottom: 10%;
+  /* justify-content: center;
+   */
+}
+#user_input {
+  width: 50%;
+}

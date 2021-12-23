@@ -45,7 +45,7 @@ h2 {
 }
 .w3-animate-right {
   position: relative;
-  animation: animateright 2.6s;
+  animation: animateright 2s;
 }
 .w3-animate-left1 {
   position: relative;
@@ -54,6 +54,10 @@ h2 {
 .w3-animate-right2 {
   position: relative;
   animation: animateright 3.6s;
+}
+.w3-animate-left2 {
+  position: relative;
+  animation: animateright 3s;
 }
 
 @media only screen and (max-width: 600px) {
