@@ -8,6 +8,7 @@ body {
   /* font-family: arial, sans-serif;
   font-size: small;
   color: #666; */
+  font-family: "Oxygen", sans-serif;
 }
 
 main {
@@ -42,11 +43,9 @@ p {
   background-color: #1976d2;
   /* color: white; */
 }
-.sidenav {
-  background-color: #dcdcdc;
-  font-size: 20px;
-  margin-top: 56px;
-  font-size: bold;
+.witcher {
+  width: 50px;
+  height: 50px;
 }
 
 /* .nav a {

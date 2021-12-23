@@ -1,15 +1,15 @@
 .homer {
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0.9)
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.7)
     ),
-    url("https://images.unsplash.com/photo-1545569341-9eb8b30979d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+    url("https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2533&q=80");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 95vh;
   overflow: auto;
-  font-family: "Varta", sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 .sidenav {
@@ -17,4 +17,50 @@
   font-size: 20px;
   margin-top: 56px;
   font-size: bold;
+}
+
+.projp {
+  width: 70%;
+  text-align: center;
+  margin-left: 15%;
+}
+h1 {
+  font-size: 100px;
+  font-family: "Oxygen", sans-serif;
+}
+h2 {
+  font-family: "Oxygen", sans-serif;
+}
+.w3-animate-top {
+  position: relative;
+  animation: animatetop 1.6s;
+}
+.homebut {
+  width: 175px;
+  padding: 10px;
+}
+.w3-animate-left {
+  position: relative;
+  animation: animateleft 1.6s;
+}
+.w3-animate-right {
+  position: relative;
+  animation: animateright 2.6s;
+}
+.w3-animate-left1 {
+  position: relative;
+  animation: animateleft 3.6s;
+}
+.w3-animate-right2 {
+  position: relative;
+  animation: animateright 3.6s;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
 }
