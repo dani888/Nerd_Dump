@@ -2,15 +2,12 @@ import { Link } from "react-router-dom";
 import "materialize-css/dist/css/materialize.min.css";
 
 const Nav = () => {
-
-  
-    
     return (
       <>
       <nav>
-        <div class="nav-wrapper grey darken-4">
-        <a href="/" class="brand-logo center">NerdDump</a>
-          <a href="/" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <div className="nav-wrapper grey darken-4">
+        <a href="/" className="brand-logo center">NerdDump</a>
+          <a href="/" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
           <ul className="left hide-on-med-and-down">
             <li><Link to="/">
             <div>Home</div>
@@ -28,7 +25,7 @@ const Nav = () => {
       </div>
     </nav>
 
-    <ul class="sidenav sidenav-close" id="mobile-demo">
+    <ul className="sidenav sidenav-close" id="mobile-demo">
       <li><Link to="/">
       <div>Home</div>
           </Link></li>
