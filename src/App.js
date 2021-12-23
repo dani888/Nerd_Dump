@@ -12,6 +12,7 @@ import Gifs from "./pages/Gifs/Gifs";
 import "./App.css";
 import "./pages/Home/home.css";
 import "./pages/About/about.css";
+import "./pages/Gifs/gifs.css";
 
 function App() {
   return (

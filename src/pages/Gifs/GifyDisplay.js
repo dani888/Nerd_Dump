@@ -4,7 +4,11 @@ const GifyDisplay = ({ gify }) => {
     return (
       <>
         <br />
-        <img src={gify.data.images.original.url} alt={gify.data.title} />
+        <img
+          className="gifyimg"
+          src={gify.data.images.original.url}
+          alt={gify.data.title}
+        />
       </>
     );
   };

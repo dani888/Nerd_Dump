@@ -47,7 +47,7 @@ function Home() {
         <div class="w3-container w3-center w3-animate-left">
           <Button
             className="homebut"
-            href="/games"
+            href="/gifs"
             variant="contained"
             size="large"
           >
