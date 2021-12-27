@@ -1,0 +1,32 @@
+#map {
+  width: 800px;
+  height: 500px;
+  margin-bottom: 10%;
+  border-radius: 5%;
+}
+#user_input {
+  width: 30%;
+}
+.pweather {
+  font-size: 30px;
+}
+h2 {
+  font-family: "Oxygen", sans-serif;
+}
+.span {
+  font-size: 15px;
+}
+@media only screen and (max-width: 600px) {
+  #map {
+    width: 100%;
+  }
+  #user_input {
+    width: 75%;
+  }
+  .pweather {
+    font-size: 40px;
+  }
+  .btn {
+    width: 75%;
+  }
+}

@@ -30,7 +30,10 @@ function About() {
                   >
                     Daniel Werminghausen
                   </a>
-                  <a href="#!" class="collection-item">
+                  <a
+                    href="https://ashleyswank.netlify.app/"
+                    class="collection-item"
+                  >
                     Ashley Swank
                   </a>
                 </div>
@@ -56,8 +59,7 @@ function About() {
                 </Link>
                 <Link
                   to={{
-                    pathname:
-                      "https://github.com/dani888?tab=overview&from=2021-11-01&to=2021-11-09",
+                    pathname: "https://github.com/alengysia",
                   }}
                   target="_blank"
                 >

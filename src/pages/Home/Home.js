@@ -44,7 +44,7 @@ function Home() {
           </Button>
         </div>
         <br />
-        <div class="w3-container w3-center w3-animate-left">
+        <div class="w3-container w3-center w3-animate-left2">
           <Button
             className="homebut"
             href="/gifs"

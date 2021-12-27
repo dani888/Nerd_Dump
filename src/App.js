@@ -13,6 +13,7 @@ import "./App.css";
 import "./pages/Home/home.css";
 import "./pages/About/about.css";
 import "./pages/Gifs/gifs.css";
+import "./pages/Weather/weather.css";
 
 function App() {
   return (
