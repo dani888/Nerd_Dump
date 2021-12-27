@@ -83,20 +83,16 @@ class Weathermap extends Component {
   render() {
     return (
       <>
-        <h1>AJAX Weather</h1>
-        weather For:
+        <p className="pweather">weather For:</p>
         <span className="span" id="weather_for"></span>
         <br />
-        <br />
-        Temperature:
+        <p className="pweather">Temperature:</p>
         <span className="span" id="temp"></span>
         <br />
-        <br />
-        Feels like:
+        <p className="pweather">Feels like:</p>
         <span className="span" id="feels_like"></span>
         <br />
-        <br />
-        Weather:
+        <p className="pweather">Weather:</p>
         <span className="span" id="weather"></span>
         <br />
         <br />
@@ -113,6 +109,7 @@ class Weathermap extends Component {
               type="submit"
               value="Get Weather Info"
               onClick={getWeather}
+              variant="contained"
               className="btn"
             >
               Get Weather Info
