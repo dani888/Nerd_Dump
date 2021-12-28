@@ -40,7 +40,6 @@ const Nav = () => {
               </Link>
             </li>
             <li>
-              {/* <Link to="/games"> */}
               <div>
                 <img
                   className="witcher"
