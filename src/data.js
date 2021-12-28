@@ -13,7 +13,7 @@ const dataObjects = {
         width: 800 / 10 - 1,
         height: 20,
         density: 2,
-        colors: ['#00FFFF', '#0062FF']
+        colors: ['#01ffc3', '#0062FF', '#ffd300', '#ce96fb', '#f21a1d', '#b8fb3c']
     },
     paddleProps:{
         height: 20,

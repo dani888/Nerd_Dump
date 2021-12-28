@@ -1,0 +1,53 @@
+export default function Brick(level, bricks, canvas, brick){
+    brick.width = canvas.width / 8;
+    let newbricks = []
+    if(!bricks){
+        return [];
+    }
+    if(bricks.length >= 8 * level){
+        return;
+    }
+
+
+    for(let i = 0; i < 8 * level; i++){
+        let newBrick = new SingleBrick(
+            brick.x + brick.width,
+            brick.y,
+            brick.width,
+            brick.height, 
+            brick.colors
+        );
+        newbricks.push(newBrick);
+
+        brick.x += brick.width - 1;
+        if(brick.x + brick.width >= canvas.width){
+            brick.x = 0.5;
+            brick.y += brick.height + 1;
+        }
+    }
+    return newbricks;
+}
+
+
+class SingleBrick{
+    constructor(x, y, w, h, c){
+        this.x = x - w;
+        this.y = y;
+        this.width = w;
+        this.height = h;
+        this.colors = c;
+        this.broke = false;
+    }
+    draw(ctx){
+        ctx.beginPath();
+        ctx.rect(this.x, this.y, this.width, this.height);
+        ctx.fillStyle = this.broke ? 'black' : this.colors[1];
+        ctx.strokeStyle = this.broke ? 'black' : 'black';
+        ctx.lineWidth = 5;
+        ctx.fillStyle = this.broke ? 'black' : this.colors[1];
+        ctx.shadowBlur = 0;
+        ctx.shadowColor = 'blue';
+        ctx.strokeRect(this.x, this.y, this.width, this.height);
+        ctx.fill();
+    }
+}
