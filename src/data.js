@@ -15,6 +15,12 @@ const dataObjects = {
         density: 2,
         colors: ['#01ffc3', '#0062FF', '#ffd300', '#ce96fb', '#f21a1d', '#b8fb3c']
     },
+    player:{
+        name: "Ashley",
+        lives: 5,
+        score: 0,
+        level: 1,
+    },
     paddleProps:{
         height: 20,
         width: 150, 

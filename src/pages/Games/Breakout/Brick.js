@@ -1,15 +1,15 @@
 export default function Brick(level, bricks, canvas, brick){
-    brick.width = canvas.width / 8;
+    brick.width = canvas.width / 5;
     let newbricks = []
     if(!bricks){
         return [];
     }
-    if(bricks.length >= 8 * level){
+    if(bricks.length >= 5 * level){
         return;
     }
 
 
-    for(let i = 0; i < 8 * level; i++){
+    for(let i = 0; i < 5 * level; i++){
         let newBrick = new SingleBrick(
             brick.x + brick.width,
             brick.y,
