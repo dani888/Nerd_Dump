@@ -40,6 +40,11 @@ const Nav = () => {
               </Link>
             </li>
             <li>
+              <Link to="/canvas">
+                <div>Canvas</div>
+              </Link>
+            </li>
+            <li>
               {/* <Link to="/games"> */}
               <div>
                 <img
@@ -79,6 +84,11 @@ const Nav = () => {
         <li>
           <Link to="/games">
             <div>Games</div>
+          </Link>
+        </li>
+        <li>
+          <Link to="/canvas">
+            <div>Canvas</div>
           </Link>
         </li>
       </ul>

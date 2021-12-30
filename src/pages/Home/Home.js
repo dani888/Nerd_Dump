@@ -55,17 +55,23 @@ function Home() {
           </Button>
         </div>
         <br />
+        <div class="w3-container w3-center w3-animate-right2">
+          <Button
+            className="homebut"
+            href="/canvas"
+            variant="contained"
+            size="large"
+          >
+            Canvas
+          </Button>
+        </div>
+        <br />
         <div class="w3-container w3-center w3-animate-left1">
           <Button className="homebut" href="#" variant="outlined" size="large">
             Shows
           </Button>
         </div>
         <br />
-        <div class="w3-container w3-center w3-animate-right2">
-          <Button className="homebut" href="#" variant="outlined" size="large">
-            Canvas
-          </Button>
-        </div>
       </div>
     </div>
   );

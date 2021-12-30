@@ -8,6 +8,7 @@ import About from "./pages/About/About";
 import Weather from "./pages/Weather/Weather";
 import Game from "./pages/Games/Games";
 import Gifs from "./pages/Gifs/Gifs";
+import Canvas from "./pages/Canvas/Canvas";
 
 import "./App.css";
 import "./pages/Home/home.css";
@@ -34,6 +35,9 @@ function App() {
         </Route>
         <Route exact path="/games">
           <Game />
+        </Route>
+        <Route exact path="/canvas">
+          <Canvas />
         </Route>
       </Switch>
       <Footer />
