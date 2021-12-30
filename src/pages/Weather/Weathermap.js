@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import $ from "jquery";
 import mapboxgl from "mapbox-gl";
+// require("script!mapbox-gl/dist/mapbox-gl.js");
+// import mapboxgl from "!mapbox-gl";
 
 let map;
 
@@ -24,7 +26,7 @@ function getWeather(lat = false, lon = false) {
   const $temp = $("#temp");
   const $feels_like = $("#feels_like");
   const $weather = $("#weather");
-  console.log("hello2");
+  //   console.log("hello2");
   let data = {
     appid: "fa8bb15376afa6c4b57918cd4d2819e3",
     units: "imperial",
