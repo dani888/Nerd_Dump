@@ -16,7 +16,7 @@ const dataObjects = {
         colors: ['#01ffc3', '#0062FF', '#ffd300', '#ce96fb', '#f21a1d', '#b8fb3c']
     },
     player:{
-        name: "Ashley",
+        name: 'Player',
         lives: 5,
         score: 0,
         level: 1,
