@@ -1,0 +1,18 @@
+.break-back{
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1618386230353-3631c1365be2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2352&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 95vh;
+    overflow: auto;
+}
+.breakout-h1{
+    margin-top: 15px;
+    color: #ffd300;
+}
+#canvas{
+    background-color: black;
+    margin-top: 20px;
+    border: 1px solid white;
+}
