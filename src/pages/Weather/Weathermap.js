@@ -77,7 +77,7 @@ class Weathermap extends Component {
       getWeather((this.lat = lngLat.lat), (this.lon = lngLat.lng));
     }
     marker.on("dragend", onDragEnd);
-    console.log("hello");
+    // console.log("hello");
   }
 
   render() {

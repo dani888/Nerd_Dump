@@ -9,6 +9,7 @@ import Weather from "./pages/Weather/Weather";
 import Game from "./pages/Games/Games";
 import Gifs from "./pages/Gifs/Gifs";
 import Breakout from "./pages/Games/Breakout"
+import Canvas from "./pages/Canvas/Canvas";
 
 import "./App.css";
 import "./pages/Home/home.css";
@@ -38,6 +39,9 @@ function App() {
         </Route>
         <Route exact path="/games/breakout">
           <Breakout />
+        </Route>
+        <Route exact path="/canvas">
+          <Canvas />
         </Route>
       </Switch>
       <Footer />

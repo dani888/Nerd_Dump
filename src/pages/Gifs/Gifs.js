@@ -21,7 +21,9 @@ function Gifs() {
   };
   return (
     <div className="homer">
-      <h1>Gifs app page</h1>
+      <h2>
+        <u>Gifs app page</u>
+      </h2>
       <Form getGify={getGify} />
       <GifyDisplay gify={gify} />
     </div>
