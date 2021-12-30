@@ -8,7 +8,7 @@ import About from "./pages/About/About";
 import Weather from "./pages/Weather/Weather";
 import Game from "./pages/Games/Games";
 import Gifs from "./pages/Gifs/Gifs";
-import Breakout from "./pages/Games/Breakout"
+import Breakout from "./pages/Games/Breakout";
 import Canvas from "./pages/Canvas/Canvas";
 
 import "./App.css";

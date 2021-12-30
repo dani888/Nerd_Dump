@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./Breakout.css";
 import { BallMovement } from "./BallMovement";
-import data from '../../../data'
+import data from "../../../data";
 import WallCollision from "./util/WallCollision";
 import Paddle from "./Paddle";
 import Brick from "./Brick";
@@ -11,11 +11,11 @@ import PlayerStats from "./PlayerStats";
 import AllBroken from "./util/AllBroke";
 import ResetBall from "./util/ResetBall";
 
-let { ballObj, brickObj, paddleProps, player } = data
+let { ballObj, brickObj, paddleProps, player } = data;
 let bricks = [];
 
-export default function Board(){
-    const canvasRef = useRef(null);
+export default function Board() {
+  const canvasRef = useRef(null);
 
   useEffect(() => {
     const render = () => {
@@ -49,17 +49,15 @@ export default function Board(){
         ResetBall(ballObj, canvas, paddleProps);
         bricks.length = 0;
       }
-     
+
       WallCollision(ballObj, canvas, player, paddleProps);
 
-      
       let brickCollision;
 
       for (let i = 0; i < bricks.length; i++) {
         brickCollision = BrickCollision(ballObj, bricks[i]);
 
         if (brickCollision.hit && !bricks[i].broke) {
-          
           if (brickCollision.axis === "X") {
             ballObj.dx *= -1;
             bricks[i].broke = true;
@@ -72,7 +70,6 @@ export default function Board(){
       }
       Paddle(ctx, canvas, paddleProps);
 
-     
       PaddleHit(ballObj, paddleProps);
 
       requestAnimationFrame(render);
@@ -80,16 +77,18 @@ export default function Board(){
     render();
   }, []);
 
-    return (
-        <div class="break-back">
-            <h1 class="breakout-h1">Breakout</h1>
-            <canvas 
-            id="canvas" 
-            ref={canvasRef} 
-            onMouseMove={(e) => (paddleProps.x = e.clientX - paddleProps.width / 2 - 350)}
-            height="700px" 
-            width="1000px"
-            />
-        </div>
-    )
+  return (
+    <div class="break-back">
+      <h1 class="breakout-h1">Breakout</h1>
+      <canvas
+        id="canvas"
+        ref={canvasRef}
+        onMouseMove={(e) =>
+          (paddleProps.x = e.clientX - paddleProps.width / 2 - 350)
+        }
+        height="700px"
+        width="1000px"
+      />
+    </div>
+  );
 }
