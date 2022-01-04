@@ -4,7 +4,7 @@ const Footer = () => {
       {/* <div className="footer-copyright"> */}
       <div className="container">
         <div className="centerfot">
-          © NerdDump 2022 Daniel Werminghasuen, Ashley Swank
+          © NerdDump 2022 Daniel Werminghausen, Ashley Swank
           {/* <a className="grey-text text-lighten-4 right" href="#!">More Links</a> */}
         </div>
       </div>
