@@ -4,7 +4,7 @@ function Weather() {
   return (
     <div className="homer">
       <h2>
-        <u>Weather App</u>
+        <u>Weathher + Map</u>
       </h2>
       <Weathermap />
     </div>
