@@ -10,7 +10,7 @@ class Canvas extends Component {
     ctx.strokeStyle = "#BADA55";
     ctx.lineJoin = "round";
     ctx.lineCap = "round";
-    ctx.lineWidth = 25;
+    ctx.lineWidth = 15;
 
     let isDrawing = false;
     let lastX = 0;
@@ -20,7 +20,7 @@ class Canvas extends Component {
     function draw(e) {
       if (!isDrawing) return;
       console.log(e);
-      ctx.strokeStyle = `hsl(${hue}, 100%, 1%)`;
+      ctx.strokeStyle = `hsl(${hue}, 100%, 65%)`;
       ctx.beginPath();
       ctx.moveTo(lastX, lastY);
       ctx.lineTo(e.offsetX, e.offsetY);
