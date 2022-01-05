@@ -49,7 +49,7 @@ class Canvas extends Component {
     return (
       <div className="homer">
         <h2>
-          <u>Canvas | Draw</u>
+          <u>Canvas | Draw with cursor</u>
         </h2>
         <canvas id="draw" width="auto" height="auto"></canvas>
       </div>
