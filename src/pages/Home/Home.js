@@ -10,7 +10,9 @@ function Home() {
               <div className="card"> */}
         <div className="w3-container w3-center w3-animate-top">
           <h1>
-            <u>Welcome to</u>
+            <u>
+              <b>Welcome to</b>
+            </u>
           </h1>
           <h2>
             <u>All things Nerdy</u>
